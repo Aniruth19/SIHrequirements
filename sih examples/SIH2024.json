@@ -1,0 +1,37 @@
+{
+  "event_id": "2024-09-05T15-30-45_incident_001",
+  "timestamp": "2024-09-05T15:30:45Z",
+  "location": {
+    "latitude": 37.7749,
+    "longitude": -122.4194,
+    "address": "123 Main Street, San Francisco, CA 94103, USA"
+  },
+  "ai_model_response": {
+    "number_of_people": {
+      "men": 5,
+      "women": 1
+    },
+    "confidence_score": 85.0,
+    "anomaly_type": "Potential Harassment",
+    "threat_level": "High",
+    "detected_behaviors": [
+      "Aggressive Gestures",
+      "Loud Vocalizations"
+    ]
+  },
+  "video_footage": {
+    "pre_event_start": "2024-09-05T15:25:45Z",
+    "pre_event_end": "2024-09-05T15:30:45Z",
+    "post_event_start": "2024-09-05T15:30:45Z",
+    "post_event_end": "2024-09-05T15:35:45Z",
+    "storage_location": "s3://your-bucket-name/2024-09-05_15-30-45_incident/"
+  },
+  "additional_info": {
+    "camera_id": "CAM-001",
+    "system_version": "1.2.3",
+    "operator_notes": "None"
+  },
+  "metadata": {
+    "event_type": "Incident"
+  }
+}
